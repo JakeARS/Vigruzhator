@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Vigruzhator.SettingsController">
+   <children>
+      <Button fx:id="okButton" layoutX="260.0" layoutY="361.0" maxHeight="25.0" maxWidth="85.0" minHeight="25.0" minWidth="85.0" mnemonicParsing="false" onAction="#ok" onKeyPressed="#callOk" prefHeight="25.0" prefWidth="85.0" text="OK" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="210.0" />
+      <Button fx:id="cancelButton" maxHeight="25.0" maxWidth="85.0" minHeight="25.0" minWidth="85.0" mnemonicParsing="false" onAction="#cancel" prefHeight="25.0" prefWidth="85.0" text="Отмена" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="115.0" />
+      <Button fx:id="acceptButton" layoutX="507.0" layoutY="361.0" maxHeight="25.0" maxWidth="85.0" minHeight="25.0" minWidth="85.0" mnemonicParsing="false" onAction="#accept" prefHeight="25.0" prefWidth="85.0" text="Применить" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="20.0" />
+      <TabPane layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #c8c8c8;" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Подключение">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #e9e9e9;">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" text="Хост" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0" />
+                        <Label layoutX="39.0" layoutY="73.0" text="Логин:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="67.0" />
+                        <Label layoutX="39.0" layoutY="153.0" text="Пароль:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="119.0" />
+                        <Pane layoutX="246.0" layoutY="28.0" maxHeight="25.0" minHeight="25.0" prefHeight="25.0" prefWidth="200.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="37.0">
+                           <children>
+                              <TextField fx:id="host" prefHeight="25.0" prefWidth="200.0" />
+                              <TextField fx:id="port" layoutX="230.0" prefHeight="25.0" prefWidth="85.0" />
+                              <TextField fx:id="dataBase" layoutX="345.0" />
+                           </children>
+                        </Pane>
+                        <TextField fx:id="login" layoutX="15.0" layoutY="105.0" prefHeight="25.0" prefWidth="150.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="89.0" />
+                        <PasswordField fx:id="password" layoutX="23.0" layoutY="186.0" prefHeight="25.0" prefWidth="150.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="141.0" />
+                        <Label layoutX="270.0" layoutY="15.0" text="Порт" AnchorPane.leftAnchor="245.0" AnchorPane.topAnchor="15.0" />
+                        <Label layoutX="361.0" layoutY="15.0" text="База Данных" AnchorPane.leftAnchor="361.0" AnchorPane.topAnchor="15.0" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

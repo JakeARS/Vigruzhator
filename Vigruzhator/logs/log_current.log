@@ -1,0 +1,1642 @@
+2020-10-26 12:34:48 INFO  MainApp:40 - Старт приложения
+2020-10-26 13:50:12 INFO  MainApp:40 - Старт приложения
+2020-10-26 13:50:13 INFO  FXMLController:107 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 13:50:13 INFO  FXMLController:109 - Файл настроек получен. Создание подключения.
+2020-10-26 13:50:13 INFO  FXMLController:140 - Старт обновления дерева объектов.
+2020-10-26 13:50:13 INFO  FXMLController:113 - Все параметры для подключения заданы.
+2020-10-26 13:50:13 INFO  PostgressConnector:132 - Подключение к БД и получение списка объектов.
+2020-10-26 13:50:14 INFO  PostgressConnector:145 - Список объектов получен.
+2020-10-26 13:50:14 INFO  FXMLController:145 - Дерево объектов для БД postgres получено.
+2020-10-26 13:54:56 INFO  FXMLController:312 - Запуск окна настроек.
+2020-10-26 13:54:56 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-10-26 13:55:22 INFO  FXMLController:140 - Старт обновления дерева объектов.
+2020-10-26 13:55:22 INFO  PostgressConnector:132 - Подключение к БД и получение списка объектов.
+2020-10-26 13:55:22 INFO  PostgressConnector:145 - Список объектов получен.
+2020-10-26 13:55:22 INFO  FXMLController:145 - Дерево объектов для БД postgres получено.
+2020-10-26 13:55:25 INFO  FXMLController:140 - Старт обновления дерева объектов.
+2020-10-26 13:55:25 INFO  PostgressConnector:132 - Подключение к БД и получение списка объектов.
+2020-10-26 13:55:25 INFO  PostgressConnector:145 - Список объектов получен.
+2020-10-26 13:55:25 INFO  FXMLController:145 - Дерево объектов для БД postgres получено.
+2020-10-26 13:55:31 ERROR FXMLController:180 - java.lang.NullPointerException
+org.example.Vigruzhator.FXMLController.chooseAction(FXMLController.java:167)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:276)
+javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+javafx.event.Event.fireEvent(Event.java:198)
+javafx.scene.Scene.processMenuEvent(Scene.java:1802)
+javafx.scene.Scene.access$4500(Scene.java:159)
+javafx.scene.Scene$ScenePeerListener.menuEvent(Scene.java:2516)
+com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$null$3(GlassViewEventHandler.java:466)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMenuEvent$4(GlassViewEventHandler.java:449)
+com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMenuEvent(GlassViewEventHandler.java:448)
+com.sun.glass.ui.View.handleMenuEvent(View.java:563)
+com.sun.glass.ui.View.notifyMenu(View.java:889)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 13:55:32 ERROR FXMLController:180 - java.lang.NullPointerException
+org.example.Vigruzhator.FXMLController.chooseAction(FXMLController.java:167)
+sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:276)
+javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+javafx.event.Event.fireEvent(Event.java:198)
+javafx.scene.Scene.processMenuEvent(Scene.java:1802)
+javafx.scene.Scene.access$4500(Scene.java:159)
+javafx.scene.Scene$ScenePeerListener.menuEvent(Scene.java:2516)
+com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$null$3(GlassViewEventHandler.java:466)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMenuEvent$4(GlassViewEventHandler.java:449)
+com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMenuEvent(GlassViewEventHandler.java:448)
+com.sun.glass.ui.View.handleMenuEvent(View.java:563)
+com.sun.glass.ui.View.notifyMenu(View.java:889)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 13:55:47 INFO  MainApp:40 - Старт приложения
+2020-10-26 13:55:48 INFO  FXMLController:107 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 13:55:48 INFO  FXMLController:109 - Файл настроек получен. Создание подключения.
+2020-10-26 13:55:48 INFO  FXMLController:140 - Старт обновления дерева объектов.
+2020-10-26 13:55:48 INFO  FXMLController:113 - Все параметры для подключения заданы.
+2020-10-26 13:56:02 INFO  PostgressConnector:132 - Подключение к БД и получение списка объектов.
+2020-10-26 13:56:02 INFO  PostgressConnector:145 - Список объектов получен.
+2020-10-26 13:56:02 INFO  FXMLController:145 - Дерево объектов для БД postgres получено.
+2020-10-26 13:56:14 ERROR FXMLController:180 - java.lang.NullPointerException
+org.example.Vigruzhator.FXMLController.chooseAction(FXMLController.java:167)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:276)
+javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+javafx.event.Event.fireEvent(Event.java:198)
+javafx.scene.Scene.processMenuEvent(Scene.java:1802)
+javafx.scene.Scene.access$4500(Scene.java:159)
+javafx.scene.Scene$ScenePeerListener.menuEvent(Scene.java:2516)
+com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$null$3(GlassViewEventHandler.java:466)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMenuEvent$4(GlassViewEventHandler.java:449)
+com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMenuEvent(GlassViewEventHandler.java:448)
+com.sun.glass.ui.View.handleMenuEvent(View.java:563)
+com.sun.glass.ui.View.notifyMenu(View.java:889)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 13:56:46 ERROR FXMLController:180 - java.lang.NullPointerException
+org.example.Vigruzhator.FXMLController.chooseAction(FXMLController.java:167)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:276)
+javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1769)
+javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657)
+com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+javafx.event.Event.fireEvent(Event.java:198)
+javafx.scene.Scene.processMenuEvent(Scene.java:1802)
+javafx.scene.Scene.access$4500(Scene.java:159)
+javafx.scene.Scene$ScenePeerListener.menuEvent(Scene.java:2516)
+com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$null$3(GlassViewEventHandler.java:466)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMenuEvent$4(GlassViewEventHandler.java:449)
+com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389)
+com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMenuEvent(GlassViewEventHandler.java:448)
+com.sun.glass.ui.View.handleMenuEvent(View.java:563)
+com.sun.glass.ui.View.notifyMenu(View.java:889)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 13:56:50 INFO  MainApp:40 - Старт приложения
+2020-10-26 13:56:50 INFO  FXMLController:107 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 13:56:50 INFO  FXMLController:109 - Файл настроек получен. Создание подключения.
+2020-10-26 13:56:50 INFO  FXMLController:140 - Старт обновления дерева объектов.
+2020-10-26 13:56:50 INFO  FXMLController:113 - Все параметры для подключения заданы.
+2020-10-26 13:56:51 INFO  PostgressConnector:132 - Подключение к БД и получение списка объектов.
+2020-10-26 13:56:51 INFO  PostgressConnector:145 - Список объектов получен.
+2020-10-26 13:56:51 INFO  FXMLController:145 - Дерево объектов для БД postgres получено.
+2020-10-26 14:00:27 INFO  MainApp:40 - Старт приложения
+2020-10-26 14:00:27 INFO  FXMLController:107 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 14:00:27 INFO  FXMLController:109 - Файл настроек получен. Создание подключения.
+2020-10-26 14:00:27 INFO  FXMLController:140 - Старт обновления дерева объектов.
+2020-10-26 14:00:27 INFO  FXMLController:113 - Все параметры для подключения заданы.
+2020-10-26 14:00:33 INFO  PostgressConnector:133 - Подключение к БД и получение списка объектов.
+2020-10-26 14:00:33 INFO  PostgressConnector:146 - Список объектов получен.
+2020-10-26 14:00:33 INFO  FXMLController:145 - Дерево объектов для БД postgres получено.
+2020-10-26 14:00:40 INFO  FXMLController:212 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-10-26 14:00:40 INFO  PostgressConnector:86 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-10-26 14:01:04 ERROR PostgressConnector:96 - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:2939)
+org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2005)
+org.example.Vigruzhator.PostgressConnector.getDDLForTable(PostgressConnector.java:88)
+org.example.Vigruzhator.PostgressConnector.getFullCode(PostgressConnector.java:73)
+org.example.Vigruzhator.PostgresObject.getDDL(PostgresObject.java:45)
+org.example.Vigruzhator.FXMLController.getDDLForObject(FXMLController.java:214)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 14:03:19 INFO  MainApp:40 - Старт приложения
+2020-10-26 14:03:19 INFO  FXMLController:107 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 14:03:19 INFO  FXMLController:109 - Файл настроек получен. Создание подключения.
+2020-10-26 14:03:19 INFO  FXMLController:140 - Старт обновления дерева объектов.
+2020-10-26 14:03:19 INFO  FXMLController:113 - Все параметры для подключения заданы.
+2020-10-26 14:04:09 INFO  PostgressConnector:135 - Подключение к БД и получение списка объектов.
+2020-10-26 14:04:09 INFO  PostgressConnector:148 - Список объектов получен.
+2020-10-26 14:04:09 INFO  FXMLController:145 - Дерево объектов для БД postgres получено.
+2020-10-26 14:04:15 INFO  FXMLController:212 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-10-26 14:04:15 INFO  PostgressConnector:86 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-10-26 14:04:51 INFO  PostgressConnector:94 - DDL для таблицы jakears.test_table получен.
+2020-10-26 14:07:09 INFO  MainApp:40 - Старт приложения
+2020-10-26 14:07:09 INFO  FXMLController:107 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 14:07:09 INFO  FXMLController:109 - Файл настроек получен. Создание подключения.
+2020-10-26 14:07:09 INFO  FXMLController:140 - Старт обновления дерева объектов.
+2020-10-26 14:07:09 INFO  FXMLController:113 - Все параметры для подключения заданы.
+2020-10-26 14:07:10 INFO  PostgressConnector:138 - Подключение к БД и получение списка объектов.
+2020-10-26 14:07:10 INFO  PostgressConnector:151 - Список объектов получен.
+2020-10-26 14:07:10 INFO  FXMLController:145 - Дерево объектов для БД postgres получено.
+2020-10-26 14:07:14 INFO  FXMLController:212 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-10-26 14:07:14 INFO  PostgressConnector:86 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-10-26 14:07:14 INFO  PostgressConnector:94 - DDL для таблицы jakears.test_table получен.
+2020-10-26 14:07:17 INFO  FXMLController:212 - Получение DDL для объекта jakears.vw_test_table (VIEW).
+2020-10-26 14:07:17 INFO  PostgressConnector:112 - Подключение к БД и получение DDL для представления jakears.vw_test_table.
+2020-10-26 14:07:17 ERROR PostgressConnector:123 - org.postgresql.util.PSQLException: Колонки definition не найдено в этом ResultSet’’е.
+org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748)
+org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+org.example.Vigruzhator.PostgressConnector.getDDLForView(PostgressConnector.java:115)
+org.example.Vigruzhator.PostgressConnector.getFullCode(PostgressConnector.java:75)
+org.example.Vigruzhator.PostgresObject.getDDL(PostgresObject.java:45)
+org.example.Vigruzhator.FXMLController.getDDLForObject(FXMLController.java:214)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 14:07:54 INFO  MainApp:40 - Старт приложения
+2020-10-26 14:07:54 INFO  FXMLController:107 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 14:07:54 INFO  FXMLController:109 - Файл настроек получен. Создание подключения.
+2020-10-26 14:07:54 INFO  FXMLController:140 - Старт обновления дерева объектов.
+2020-10-26 14:07:54 INFO  FXMLController:113 - Все параметры для подключения заданы.
+2020-10-26 14:07:55 INFO  PostgressConnector:138 - Подключение к БД и получение списка объектов.
+2020-10-26 14:07:55 INFO  PostgressConnector:151 - Список объектов получен.
+2020-10-26 14:07:55 INFO  FXMLController:145 - Дерево объектов для БД postgres получено.
+2020-10-26 14:08:09 INFO  FXMLController:212 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-10-26 14:08:09 INFO  PostgressConnector:86 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-10-26 14:08:09 INFO  PostgressConnector:94 - DDL для таблицы jakears.test_table получен.
+2020-10-26 14:08:10 INFO  FXMLController:212 - Получение DDL для объекта jakears.vw_test_table (VIEW).
+2020-10-26 14:08:10 INFO  PostgressConnector:112 - Подключение к БД и получение DDL для представления jakears.vw_test_table.
+2020-10-26 14:08:10 ERROR PostgressConnector:123 - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:2939)
+org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2005)
+org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+org.example.Vigruzhator.PostgressConnector.getDDLForView(PostgressConnector.java:115)
+org.example.Vigruzhator.PostgressConnector.getFullCode(PostgressConnector.java:75)
+org.example.Vigruzhator.PostgresObject.getDDL(PostgresObject.java:45)
+org.example.Vigruzhator.FXMLController.getDDLForObject(FXMLController.java:214)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 14:09:16 INFO  MainApp:40 - Старт приложения
+2020-10-26 14:09:16 INFO  FXMLController:107 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 14:09:16 INFO  FXMLController:109 - Файл настроек получен. Создание подключения.
+2020-10-26 14:09:16 INFO  FXMLController:140 - Старт обновления дерева объектов.
+2020-10-26 14:09:16 INFO  FXMLController:113 - Все параметры для подключения заданы.
+2020-10-26 14:09:17 INFO  PostgressConnector:138 - Подключение к БД и получение списка объектов.
+2020-10-26 14:09:17 INFO  PostgressConnector:151 - Список объектов получен.
+2020-10-26 14:09:17 INFO  FXMLController:145 - Дерево объектов для БД postgres получено.
+2020-10-26 14:09:20 INFO  FXMLController:212 - Получение DDL для объекта jakears.vw_test_table (VIEW).
+2020-10-26 14:09:20 INFO  PostgressConnector:112 - Подключение к БД и получение DDL для представления jakears.vw_test_table.
+2020-10-26 14:09:21 ERROR PostgressConnector:123 - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:2939)
+org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2005)
+org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+org.example.Vigruzhator.PostgressConnector.getDDLForView(PostgressConnector.java:115)
+org.example.Vigruzhator.PostgressConnector.getFullCode(PostgressConnector.java:75)
+org.example.Vigruzhator.PostgresObject.getDDL(PostgresObject.java:45)
+org.example.Vigruzhator.FXMLController.getDDLForObject(FXMLController.java:214)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 14:09:41 INFO  MainApp:40 - Старт приложения
+2020-10-26 14:09:42 INFO  FXMLController:107 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 14:09:42 INFO  FXMLController:109 - Файл настроек получен. Создание подключения.
+2020-10-26 14:09:42 INFO  FXMLController:140 - Старт обновления дерева объектов.
+2020-10-26 14:09:42 INFO  FXMLController:113 - Все параметры для подключения заданы.
+2020-10-26 14:09:44 INFO  PostgressConnector:138 - Подключение к БД и получение списка объектов.
+2020-10-26 14:09:44 INFO  PostgressConnector:151 - Список объектов получен.
+2020-10-26 14:09:44 INFO  FXMLController:145 - Дерево объектов для БД postgres получено.
+2020-10-26 14:09:48 INFO  FXMLController:212 - Получение DDL для объекта jakears.vw_test_table (VIEW).
+2020-10-26 14:09:48 INFO  PostgressConnector:112 - Подключение к БД и получение DDL для представления jakears.vw_test_table.
+2020-10-26 14:11:02 ERROR PostgressConnector:123 - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:2939)
+org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2005)
+org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+org.example.Vigruzhator.PostgressConnector.getDDLForView(PostgressConnector.java:115)
+org.example.Vigruzhator.PostgressConnector.getFullCode(PostgressConnector.java:75)
+org.example.Vigruzhator.PostgresObject.getDDL(PostgresObject.java:45)
+org.example.Vigruzhator.FXMLController.getDDLForObject(FXMLController.java:214)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 14:11:06 INFO  FXMLController:212 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-10-26 14:11:06 INFO  PostgressConnector:86 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-10-26 14:13:10 INFO  PostgressConnector:94 - DDL для таблицы jakears.test_table получен.
+2020-10-26 14:13:13 INFO  FXMLController:212 - Получение DDL для объекта jakears.vw_test_table (VIEW).
+2020-10-26 14:13:13 INFO  PostgressConnector:112 - Подключение к БД и получение DDL для представления jakears.vw_test_table.
+2020-10-26 14:14:34 ERROR PostgressConnector:123 - org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:2939)
+org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2005)
+org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2605)
+org.example.Vigruzhator.PostgressConnector.getDDLForView(PostgressConnector.java:115)
+org.example.Vigruzhator.PostgressConnector.getFullCode(PostgressConnector.java:75)
+org.example.Vigruzhator.PostgresObject.getDDL(PostgresObject.java:45)
+org.example.Vigruzhator.FXMLController.getDDLForObject(FXMLController.java:214)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 14:14:37 INFO  MainApp:40 - Старт приложения
+2020-10-26 14:14:37 INFO  FXMLController:107 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 14:14:38 INFO  FXMLController:109 - Файл настроек получен. Создание подключения.
+2020-10-26 14:14:38 INFO  FXMLController:140 - Старт обновления дерева объектов.
+2020-10-26 14:14:38 INFO  FXMLController:113 - Все параметры для подключения заданы.
+2020-10-26 14:14:38 INFO  PostgressConnector:138 - Подключение к БД и получение списка объектов.
+2020-10-26 14:14:39 INFO  PostgressConnector:151 - Список объектов получен.
+2020-10-26 14:14:39 INFO  FXMLController:145 - Дерево объектов для БД postgres получено.
+2020-10-26 14:14:41 INFO  FXMLController:212 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-10-26 14:14:41 INFO  PostgressConnector:86 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-10-26 14:14:41 INFO  PostgressConnector:94 - DDL для таблицы jakears.test_table получен.
+2020-10-26 14:14:43 INFO  FXMLController:212 - Получение DDL для объекта jakears.vw_test_table (VIEW).
+2020-10-26 14:14:43 INFO  PostgressConnector:112 - Подключение к БД и получение DDL для представления jakears.vw_test_table.
+2020-10-26 14:14:43 ERROR PostgressConnector:123 - org.postgresql.util.PSQLException: ОШИБКА: столбец "postgres" не существует
+  Позиция: 80
+org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:236)
+org.example.Vigruzhator.PostgressConnector.getDDLForView(PostgressConnector.java:113)
+org.example.Vigruzhator.PostgressConnector.getFullCode(PostgressConnector.java:75)
+org.example.Vigruzhator.PostgresObject.getDDL(PostgresObject.java:45)
+org.example.Vigruzhator.FXMLController.getDDLForObject(FXMLController.java:214)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 14:15:15 INFO  MainApp:40 - Старт приложения
+2020-10-26 14:15:16 INFO  FXMLController:107 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 14:15:16 INFO  FXMLController:109 - Файл настроек получен. Создание подключения.
+2020-10-26 14:15:16 INFO  FXMLController:140 - Старт обновления дерева объектов.
+2020-10-26 14:15:16 INFO  FXMLController:113 - Все параметры для подключения заданы.
+2020-10-26 14:15:17 INFO  PostgressConnector:138 - Подключение к БД и получение списка объектов.
+2020-10-26 14:15:17 INFO  PostgressConnector:151 - Список объектов получен.
+2020-10-26 14:15:17 INFO  FXMLController:145 - Дерево объектов для БД postgres получено.
+2020-10-26 14:15:20 INFO  FXMLController:212 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-10-26 14:15:20 INFO  PostgressConnector:86 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-10-26 14:15:20 INFO  PostgressConnector:94 - DDL для таблицы jakears.test_table получен.
+2020-10-26 14:15:21 INFO  FXMLController:212 - Получение DDL для объекта jakears.vw_test_table (VIEW).
+2020-10-26 14:15:21 INFO  PostgressConnector:112 - Подключение к БД и получение DDL для представления jakears.vw_test_table.
+2020-10-26 14:15:21 INFO  PostgressConnector:119 - DDL для представления jakears.vw_test_table получен.
+2020-10-26 14:15:24 INFO  FXMLController:212 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-10-26 14:15:24 INFO  PostgressConnector:86 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-10-26 14:15:24 INFO  PostgressConnector:94 - DDL для таблицы jakears.test_table получен.
+2020-10-26 14:15:26 INFO  FXMLController:212 - Получение DDL для объекта jakears.vw_test_table (VIEW).
+2020-10-26 14:15:26 INFO  PostgressConnector:112 - Подключение к БД и получение DDL для представления jakears.vw_test_table.
+2020-10-26 14:15:26 INFO  PostgressConnector:119 - DDL для представления jakears.vw_test_table получен.
+2020-10-26 14:15:32 INFO  FXMLController:212 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-10-26 14:15:32 INFO  PostgressConnector:86 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-10-26 14:15:33 INFO  PostgressConnector:94 - DDL для таблицы jakears.test_table получен.
+2020-10-26 14:56:31 INFO  MainApp:40 - Старт приложения
+2020-10-26 14:56:31 INFO  FXMLController:108 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 14:56:31 INFO  FXMLController:110 - Файл настроек получен. Создание подключения.
+2020-10-26 14:56:31 INFO  FXMLController:144 - Старт обновления дерева объектов.
+2020-10-26 14:56:31 INFO  FXMLController:114 - Все параметры для подключения заданы.
+2020-10-26 14:56:32 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-10-26 14:56:32 INFO  PostgressConnector:152 - Список объектов получен.
+2020-10-26 14:56:32 INFO  FXMLController:149 - Дерево объектов для БД postgres получено.
+2020-10-26 14:56:35 INFO  FXMLController:316 - Запуск окна настроек.
+2020-10-26 14:56:35 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-10-26 14:56:37 INFO  SettingsController:81 - Параметры подключения изменились. Сохранение новых параметров.
+2020-10-26 14:56:37 INFO  FXMLController:144 - Старт обновления дерева объектов.
+2020-10-26 14:56:37 INFO  SettingsController:85 - Параметры подключения записаны в файл Settings.txt.
+2020-10-26 14:56:37 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-10-26 14:56:38 ERROR PostgressConnector:154 - org.postgresql.util.PSQLException: ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+org.postgresql.Driver.makeConnection(Driver.java:465)
+org.postgresql.Driver.connect(Driver.java:264)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:145)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:171)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:147)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 14:58:03 INFO  FXMLController:316 - Запуск окна настроек.
+2020-10-26 14:58:03 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-10-26 14:58:10 INFO  MainApp:40 - Старт приложения
+2020-10-26 14:58:11 INFO  FXMLController:108 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 14:58:11 INFO  FXMLController:110 - Файл настроек получен. Создание подключения.
+2020-10-26 14:58:11 INFO  FXMLController:146 - Старт обновления дерева объектов.
+2020-10-26 14:58:11 INFO  FXMLController:117 - Все параметры для подключения заданы.
+2020-10-26 14:58:11 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-10-26 14:58:12 ERROR PostgressConnector:154 - org.postgresql.util.PSQLException: ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+org.postgresql.Driver.makeConnection(Driver.java:465)
+org.postgresql.Driver.connect(Driver.java:264)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:145)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:171)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:149)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 15:00:44 INFO  FXMLController:318 - Запуск окна настроек.
+2020-10-26 15:00:44 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-10-26 15:01:19 INFO  MainApp:40 - Старт приложения
+2020-10-26 15:01:19 INFO  FXMLController:108 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 15:01:19 INFO  FXMLController:110 - Файл настроек получен. Создание подключения.
+2020-10-26 15:01:19 INFO  FXMLController:146 - Старт обновления дерева объектов.
+2020-10-26 15:01:46 INFO  FXMLController:117 - Все параметры для подключения заданы.
+2020-10-26 15:01:48 INFO  MainApp:40 - Старт приложения
+2020-10-26 15:01:49 INFO  FXMLController:108 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 15:01:49 INFO  FXMLController:110 - Файл настроек получен. Создание подключения.
+2020-10-26 15:01:49 INFO  FXMLController:146 - Старт обновления дерева объектов.
+2020-10-26 15:02:27 INFO  FXMLController:117 - Все параметры для подключения заданы.
+2020-10-26 15:03:57 INFO  MainApp:40 - Старт приложения
+2020-10-26 15:03:57 INFO  FXMLController:108 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 15:03:57 INFO  FXMLController:110 - Файл настроек получен. Создание подключения.
+2020-10-26 15:03:57 INFO  FXMLController:146 - Старт обновления дерева объектов.
+2020-10-26 15:03:57 ERROR FXMLController:119 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:246)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:116)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:41)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 15:03:58 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-10-26 15:03:58 ERROR PostgressConnector:154 - org.postgresql.util.PSQLException: ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+org.postgresql.Driver.makeConnection(Driver.java:465)
+org.postgresql.Driver.connect(Driver.java:264)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:140)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:171)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:149)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 15:03:58 WARN  FXMLController:128 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-10-26 15:04:01 INFO  FXMLController:318 - Запуск окна настроек.
+2020-10-26 15:04:01 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-10-26 15:06:08 INFO  MainApp:40 - Старт приложения
+2020-10-26 15:06:08 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-26 15:06:08 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-10-26 15:06:08 ERROR FXMLController:117 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:246)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:114)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:41)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 15:06:09 WARN  FXMLController:126 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-10-26 15:06:51 INFO  FXMLController:321 - Запуск окна настроек.
+2020-10-26 15:06:51 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-10-26 15:07:07 INFO  SettingsController:81 - Параметры подключения изменились. Сохранение новых параметров.
+2020-10-26 15:07:07 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-10-26 15:07:07 INFO  SettingsController:85 - Параметры подключения записаны в файл Settings.txt.
+2020-10-26 15:07:07 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-10-26 15:07:07 ERROR PostgressConnector:154 - org.postgresql.util.PSQLException: ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+org.postgresql.Driver.makeConnection(Driver.java:465)
+org.postgresql.Driver.connect(Driver.java:264)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:140)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:171)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:152)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-26 15:07:26 INFO  FXMLController:321 - Запуск окна настроек.
+2020-10-26 15:07:26 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-10-26 15:07:32 INFO  SettingsController:81 - Параметры подключения изменились. Сохранение новых параметров.
+2020-10-26 15:07:32 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-10-26 15:07:32 INFO  SettingsController:85 - Параметры подключения записаны в файл Settings.txt.
+2020-10-26 15:07:32 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-10-26 15:07:32 INFO  PostgressConnector:152 - Список объектов получен.
+2020-10-26 15:07:32 INFO  FXMLController:154 - Дерево объектов для БД postgres получено.
+2020-10-27 10:09:14 INFO  MainApp:40 - Старт приложения
+2020-10-27 10:09:15 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-27 10:09:15 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-10-27 10:09:15 INFO  FXMLController:115 - Все параметры для подключения заданы.
+2020-10-27 10:09:15 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-10-27 10:09:15 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-10-27 10:09:17 ERROR PostgressConnector:154 - org.postgresql.util.PSQLException: Подсоединение по адресу 127.0.0.1:5432 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:303)
+org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+org.postgresql.Driver.makeConnection(Driver.java:465)
+org.postgresql.Driver.connect(Driver.java:264)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:140)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:171)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:152)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-27 10:09:39 INFO  FXMLController:321 - Запуск окна настроек.
+2020-10-27 10:09:39 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-10-27 10:09:43 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-10-27 10:09:43 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-10-27 10:09:45 ERROR PostgressConnector:154 - org.postgresql.util.PSQLException: Подсоединение по адресу 127.0.0.1:5432 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:303)
+org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+org.postgresql.Driver.makeConnection(Driver.java:465)
+org.postgresql.Driver.connect(Driver.java:264)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:140)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:171)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:152)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-27 10:09:57 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-10-27 10:09:57 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-10-27 10:09:59 ERROR PostgressConnector:154 - org.postgresql.util.PSQLException: Подсоединение по адресу 127.0.0.1:5432 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:303)
+org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+org.postgresql.Driver.makeConnection(Driver.java:465)
+org.postgresql.Driver.connect(Driver.java:264)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:140)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:171)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:152)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-27 10:10:17 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-10-27 10:10:17 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-10-27 10:10:17 INFO  PostgressConnector:152 - Список объектов получен.
+2020-10-27 10:10:17 INFO  FXMLController:154 - Дерево объектов для БД postgres получено.
+2020-10-27 10:10:47 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-10-27 10:10:47 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-10-27 10:10:49 ERROR PostgressConnector:154 - org.postgresql.util.PSQLException: Подсоединение по адресу 127.0.0.1:5432 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:303)
+org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+org.postgresql.Driver.makeConnection(Driver.java:465)
+org.postgresql.Driver.connect(Driver.java:264)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:140)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:171)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:152)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-27 13:03:59 INFO  MainApp:40 - Старт приложения
+2020-10-27 13:03:59 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-27 13:03:59 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-10-27 13:03:59 INFO  FXMLController:115 - Все параметры для подключения заданы.
+2020-10-27 13:03:59 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-10-27 13:04:00 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-10-27 13:04:02 ERROR PostgressConnector:154 - org.postgresql.util.PSQLException: Подсоединение по адресу 127.0.0.1:5432 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:303)
+org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+org.postgresql.Driver.makeConnection(Driver.java:465)
+org.postgresql.Driver.connect(Driver.java:264)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:140)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:171)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:152)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-27 13:04:20 INFO  MainApp:40 - Старт приложения
+2020-10-27 13:04:21 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-10-27 13:04:21 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-10-27 13:04:21 INFO  FXMLController:115 - Все параметры для подключения заданы.
+2020-10-27 13:04:21 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-10-27 13:04:21 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-10-27 13:04:22 INFO  PostgressConnector:152 - Список объектов получен.
+2020-10-27 13:04:22 INFO  FXMLController:154 - Дерево объектов для БД postgres получено.
+2020-11-09 11:00:43 INFO  MainApp:40 - Старт приложения
+2020-11-09 11:00:44 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-09 11:00:44 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-09 11:00:44 INFO  FXMLController:115 - Все параметры для подключения заданы.
+2020-11-09 11:00:44 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-09 11:00:44 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-09 11:00:45 INFO  PostgressConnector:152 - Список объектов получен.
+2020-11-09 11:00:45 INFO  FXMLController:154 - Дерево объектов для БД postgres получено.
+2020-11-09 11:00:54 INFO  FXMLController:221 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-11-09 11:00:54 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-09 11:00:55 INFO  PostgressConnector:95 - DDL для таблицы jakears.test_table получен.
+2020-11-09 11:04:21 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-09 11:04:21 INFO  PostgressConnector:152 - Список объектов получен.
+2020-11-09 11:04:38 INFO  MainApp:40 - Старт приложения
+2020-11-09 11:04:38 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-09 11:04:38 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-09 11:04:38 INFO  FXMLController:115 - Все параметры для подключения заданы.
+2020-11-09 11:04:38 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-09 11:04:39 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-09 11:04:39 INFO  PostgressConnector:152 - Список объектов получен.
+2020-11-09 11:04:39 INFO  FXMLController:154 - Дерево объектов для БД postgres получено.
+2020-11-09 11:04:43 INFO  FXMLController:221 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-11-09 11:04:43 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-09 11:04:43 INFO  PostgressConnector:95 - DDL для таблицы jakears.test_table получен.
+2020-11-09 11:14:17 INFO  FXMLController:221 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-11-09 11:14:17 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-09 11:14:17 INFO  PostgressConnector:95 - DDL для таблицы jakears.test_table получен.
+2020-11-09 11:14:41 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы ai.auto_tickets.
+2020-11-09 11:14:41 INFO  PostgressConnector:95 - DDL для таблицы ai.auto_tickets получен.
+2020-11-09 11:16:00 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-09 11:16:00 INFO  PostgressConnector:95 - DDL для таблицы jakears.test_table получен.
+2020-11-09 11:16:25 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-09 11:16:26 INFO  PostgressConnector:95 - DDL для таблицы jakears.test_table получен.
+2020-11-09 11:16:26 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-09 11:16:26 INFO  PostgressConnector:152 - Список объектов получен.
+2020-11-18 17:53:29 INFO  MainApp:40 - Старт приложения
+2020-11-18 17:53:30 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-18 17:53:30 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-18 17:53:30 INFO  FXMLController:115 - Все параметры для подключения заданы.
+2020-11-18 17:53:30 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-18 17:53:30 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-18 17:53:31 INFO  PostgressConnector:152 - Список объектов получен.
+2020-11-18 17:53:31 INFO  FXMLController:154 - Дерево объектов для БД postgres получено.
+2020-11-18 17:53:37 INFO  FXMLController:221 - Получение DDL для объекта information_schema.sql_implementation_info (BASE TABLE).
+2020-11-18 17:53:37 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы information_schema.sql_implementation_info.
+2020-11-18 17:53:38 INFO  PostgressConnector:95 - DDL для таблицы information_schema.sql_implementation_info получен.
+2020-11-18 17:53:42 INFO  FXMLController:221 - Получение DDL для объекта information_schema._pg_foreign_servers (VIEW).
+2020-11-18 17:53:42 INFO  PostgressConnector:113 - Подключение к БД и получение DDL для представления information_schema._pg_foreign_servers.
+2020-11-18 17:53:42 INFO  PostgressConnector:120 - DDL для представления information_schema._pg_foreign_servers получен.
+2020-11-18 17:55:19 INFO  MainApp:40 - Старт приложения
+2020-11-18 17:55:20 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-18 17:55:20 ERROR FXMLController:120 - java.io.FileNotFoundException: Settings.txt (Не удается найти указанный файл)
+java.io.FileInputStream.open0(Native Method)
+java.io.FileInputStream.open(FileInputStream.java:195)
+java.io.FileInputStream.<init>(FileInputStream.java:138)
+java.io.FileInputStream.<init>(FileInputStream.java:93)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:107)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:41)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-18 17:55:20 WARN  FXMLController:126 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-18 17:55:30 INFO  FXMLController:321 - Запуск окна настроек.
+2020-11-18 17:55:30 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-18 17:56:00 INFO  SettingsController:81 - Параметры подключения изменились. Сохранение новых параметров.
+2020-11-18 17:56:00 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-18 17:56:00 INFO  SettingsController:85 - Параметры подключения записаны в файл Settings.txt.
+2020-11-18 17:56:00 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-18 17:56:00 INFO  PostgressConnector:152 - Список объектов получен.
+2020-11-18 17:56:00 INFO  FXMLController:154 - Дерево объектов для БД postgres получено.
+2020-11-18 17:56:02 INFO  FXMLController:321 - Запуск окна настроек.
+2020-11-18 17:56:02 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-18 17:56:04 INFO  SettingsController:81 - Параметры подключения изменились. Сохранение новых параметров.
+2020-11-18 17:56:04 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-18 17:56:04 INFO  SettingsController:85 - Параметры подключения записаны в файл Settings.txt.
+2020-11-18 17:56:04 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-18 17:56:04 ERROR PostgressConnector:154 - org.postgresql.util.PSQLException: Случилось что-то необычное, что заставило драйвер произвести ошибку. Пожалуйста сообщите это исключение.
+org.postgresql.Driver.connect(Driver.java:285)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:140)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:171)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:152)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-18 17:56:28 INFO  MainApp:40 - Старт приложения
+2020-11-18 17:56:28 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-18 17:56:28 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-18 17:56:28 INFO  FXMLController:115 - Все параметры для подключения заданы.
+2020-11-18 17:56:28 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-18 17:56:29 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-18 17:56:29 ERROR PostgressConnector:154 - org.postgresql.util.PSQLException: Случилось что-то необычное, что заставило драйвер произвести ошибку. Пожалуйста сообщите это исключение.
+org.postgresql.Driver.connect(Driver.java:285)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:140)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:171)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:152)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-18 17:57:36 INFO  MainApp:40 - Старт приложения
+2020-11-18 17:57:37 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-18 17:57:37 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-18 17:58:00 INFO  FXMLController:115 - Все параметры для подключения заданы.
+2020-11-18 17:58:00 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-18 17:58:03 INFO  MainApp:40 - Старт приложения
+2020-11-18 17:58:03 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-18 17:58:03 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-18 17:59:13 INFO  FXMLController:115 - Все параметры для подключения заданы.
+2020-11-18 17:59:13 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-18 17:59:44 INFO  MainApp:40 - Старт приложения
+2020-11-18 17:59:44 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-18 17:59:44 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-18 17:59:59 ERROR FXMLController:117 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:246)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:114)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:41)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-18 18:00:01 WARN  FXMLController:126 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-18 18:00:04 INFO  FXMLController:321 - Запуск окна настроек.
+2020-11-18 18:00:04 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-18 18:00:27 INFO  FXMLController:321 - Запуск окна настроек.
+2020-11-18 18:00:27 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-18 18:00:32 INFO  SettingsController:81 - Параметры подключения изменились. Сохранение новых параметров.
+2020-11-18 18:00:32 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-18 18:00:32 INFO  SettingsController:85 - Параметры подключения записаны в файл Settings.txt.
+2020-11-18 18:00:38 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-18 18:00:38 ERROR PostgressConnector:154 - org.postgresql.util.PSQLException: ВАЖНО: в стартовом пакете не указано имя пользователя PostgreSQL (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+org.postgresql.Driver.makeConnection(Driver.java:465)
+org.postgresql.Driver.connect(Driver.java:264)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:140)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:171)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:152)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-18 18:00:48 INFO  MainApp:40 - Старт приложения
+2020-11-18 18:00:49 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-18 18:00:49 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-18 18:00:49 ERROR FXMLController:117 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:246)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:114)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:41)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-18 18:00:49 WARN  FXMLController:126 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-18 18:00:53 INFO  FXMLController:321 - Запуск окна настроек.
+2020-11-18 18:00:53 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-18 18:41:54 INFO  MainApp:40 - Старт приложения
+2020-11-18 18:41:55 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-18 18:41:55 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-18 18:41:55 ERROR FXMLController:117 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:246)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:114)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:41)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-18 18:41:56 WARN  FXMLController:126 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-18 18:42:25 INFO  FXMLController:321 - Запуск окна настроек.
+2020-11-18 18:42:25 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-18 18:42:35 INFO  SettingsController:81 - Параметры подключения изменились. Сохранение новых параметров.
+2020-11-18 18:42:35 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-18 18:42:35 INFO  SettingsController:85 - Параметры подключения записаны в файл Settings.txt.
+2020-11-18 18:42:35 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-18 18:42:36 ERROR PostgressConnector:154 - org.postgresql.util.PSQLException: ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+org.postgresql.Driver.makeConnection(Driver.java:465)
+org.postgresql.Driver.connect(Driver.java:264)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:140)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:171)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:152)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-18 18:42:39 INFO  FXMLController:321 - Запуск окна настроек.
+2020-11-18 18:42:39 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-18 18:42:55 INFO  SettingsController:81 - Параметры подключения изменились. Сохранение новых параметров.
+2020-11-18 18:42:55 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-18 18:42:55 INFO  SettingsController:85 - Параметры подключения записаны в файл Settings.txt.
+2020-11-18 18:42:55 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-18 18:42:56 INFO  PostgressConnector:152 - Список объектов получен.
+2020-11-18 18:42:56 INFO  FXMLController:154 - Дерево объектов для БД postgres получено.
+2020-11-18 18:43:20 INFO  FXMLController:221 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-11-18 18:43:20 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-18 18:43:20 INFO  PostgressConnector:95 - DDL для таблицы jakears.test_table получен.
+2020-11-18 18:44:10 INFO  FXMLController:204 - Добавление пользователя в список грантов.
+2020-11-18 18:44:18 INFO  FXMLController:204 - Добавление пользователя в список грантов.
+2020-11-18 18:44:22 INFO  FXMLController:286 - Добавление скрипта для выдачи грантов к DDL объекта jakears.test_table.
+2020-11-18 18:45:51 INFO  FXMLController:356 - Сохранение файла с скриптами для объекта jakears.test_table.
+2020-11-18 18:46:01 INFO  FXMLController:369 - Файл jakears.test_table.sql сохранен.
+2020-11-18 18:46:13 INFO  FXMLController:356 - Сохранение файла с скриптами для объекта jakears.test_table.
+2020-11-18 18:51:07 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-18 18:51:07 INFO  PostgressConnector:95 - DDL для таблицы jakears.test_table получен.
+2020-11-18 18:51:07 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-18 18:51:07 INFO  PostgressConnector:152 - Список объектов получен.
+2020-11-18 19:01:16 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-18 19:01:17 INFO  PostgressConnector:95 - DDL для таблицы jakears.test_table получен.
+2020-11-18 19:01:17 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-18 19:01:17 INFO  PostgressConnector:152 - Список объектов получен.
+2020-11-18 19:01:22 INFO  MainApp:40 - Старт приложения
+2020-11-18 19:01:23 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-18 19:01:23 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-18 19:01:23 INFO  FXMLController:115 - Все параметры для подключения заданы.
+2020-11-18 19:01:23 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-18 19:01:23 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-18 19:01:24 INFO  PostgressConnector:152 - Список объектов получен.
+2020-11-18 19:01:24 INFO  FXMLController:154 - Дерево объектов для БД postgres получено.
+2020-11-18 19:01:27 INFO  FXMLController:321 - Запуск окна настроек.
+2020-11-18 19:01:27 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-18 19:01:31 INFO  SettingsController:81 - Параметры подключения изменились. Сохранение новых параметров.
+2020-11-18 19:01:31 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-18 19:01:31 INFO  SettingsController:85 - Параметры подключения записаны в файл Settings.txt.
+2020-11-18 19:01:31 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-18 19:01:31 INFO  PostgressConnector:152 - Список объектов получен.
+2020-11-18 19:01:31 INFO  FXMLController:154 - Дерево объектов для БД postgres получено.
+2020-11-19 17:05:21 INFO  MainApp:40 - Старт приложения
+2020-11-19 17:05:22 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-19 17:05:22 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-19 17:05:22 INFO  FXMLController:115 - Все параметры для подключения заданы.
+2020-11-19 17:05:22 INFO  FXMLController:149 - Старт обновления дерева объектов.
+2020-11-19 17:05:23 INFO  PostgressConnector:139 - Подключение к БД и получение списка объектов.
+2020-11-19 17:05:23 INFO  PostgressConnector:152 - Список объектов получен.
+2020-11-19 17:05:23 INFO  FXMLController:154 - Дерево объектов для БД postgres получено.
+2020-11-19 17:05:28 INFO  FXMLController:221 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-11-19 17:05:28 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-19 17:05:28 INFO  PostgressConnector:95 - DDL для таблицы jakears.test_table получен.
+2020-11-19 17:05:43 INFO  FXMLController:204 - Добавление пользователя в список грантов.
+2020-11-19 17:05:54 INFO  FXMLController:204 - Добавление пользователя в список грантов.
+2020-11-19 17:06:00 INFO  FXMLController:204 - Добавление пользователя в список грантов.
+2020-11-19 17:06:03 INFO  FXMLController:286 - Добавление скрипта для выдачи грантов к DDL объекта jakears.test_table.
+2020-11-19 17:07:40 INFO  FXMLController:321 - Запуск окна настроек.
+2020-11-19 17:07:40 INFO  SettingsController:43 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-24 13:00:14 INFO  MainApp:36 - Старт приложения
+2020-11-24 13:00:14 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-24 13:00:14 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-24 13:00:14 INFO  FXMLController:111 - Все параметры для подключения заданы.
+2020-11-24 13:00:14 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-11-24 13:00:15 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-24 13:00:17 ERROR PostgressConnector:142 - org.postgresql.util.PSQLException: Подсоединение по адресу 127.0.0.1:5432 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:303)
+org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+org.postgresql.Driver.makeConnection(Driver.java:465)
+org.postgresql.Driver.connect(Driver.java:264)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:131)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:159)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:148)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-24 13:00:47 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-11-24 13:00:47 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-24 13:00:47 INFO  PostgressConnector:140 - Список объектов получен.
+2020-11-24 13:00:47 INFO  FXMLController:150 - Дерево объектов для БД postgres получено.
+2020-11-24 13:00:50 INFO  FXMLController:217 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-11-24 13:00:50 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-24 13:00:50 INFO  PostgressConnector:91 - DDL для таблицы jakears.test_table получен.
+2020-11-24 13:01:05 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-24 13:01:05 INFO  PostgressConnector:91 - DDL для таблицы jakears.test_table получен.
+2020-11-24 13:01:05 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-24 13:01:05 INFO  PostgressConnector:140 - Список объектов получен.
+2020-11-26 12:58:27 INFO  MainApp:36 - Старт приложения
+2020-11-26 12:58:27 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 12:58:27 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 12:58:27 INFO  FXMLController:111 - Все параметры для подключения заданы.
+2020-11-26 12:58:27 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-11-26 12:58:28 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-26 12:58:28 INFO  PostgressConnector:140 - Список объектов получен.
+2020-11-26 12:58:28 INFO  FXMLController:150 - Дерево объектов для БД postgres получено.
+2020-11-26 13:07:33 INFO  FXMLController:217 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-11-26 13:07:33 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-26 13:07:33 INFO  PostgressConnector:91 - DDL для таблицы jakears.test_table получен.
+2020-11-26 15:32:16 INFO  MainApp:36 - Старт приложения
+2020-11-26 15:32:17 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 15:32:17 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 15:32:17 INFO  FXMLController:111 - Все параметры для подключения заданы.
+2020-11-26 15:32:17 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-11-26 15:32:18 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-26 15:32:18 INFO  PostgressConnector:140 - Список объектов получен.
+2020-11-26 15:32:18 INFO  FXMLController:150 - Дерево объектов для БД postgres получено.
+2020-11-26 15:32:19 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 15:32:20 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 15:32:27 INFO  SettingsController:76 - Параметры подключения изменились. Сохранение новых параметров.
+2020-11-26 15:32:27 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-11-26 15:32:27 INFO  SettingsController:80 - Параметры подключения записаны в файл Settings.txt.
+2020-11-26 15:32:27 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-26 15:32:27 ERROR PostgressConnector:142 - org.postgresql.util.PSQLException: Случилось что-то необычное, что заставило драйвер произвести ошибку. Пожалуйста сообщите это исключение.
+org.postgresql.Driver.connect(Driver.java:285)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:131)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:159)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:148)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 15:32:33 INFO  MainApp:36 - Старт приложения
+2020-11-26 15:32:33 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 15:32:33 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 15:32:33 ERROR FXMLController:113 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:226)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:110)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:37)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 15:32:34 WARN  FXMLController:122 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-26 15:32:36 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 15:32:36 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 15:37:24 INFO  MainApp:36 - Старт приложения
+2020-11-26 15:37:25 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 15:37:25 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 15:37:25 ERROR FXMLController:113 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:226)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:110)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:37)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 15:37:25 WARN  FXMLController:122 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-26 15:37:27 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 15:37:27 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 15:39:51 INFO  MainApp:36 - Старт приложения
+2020-11-26 15:39:52 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 15:39:52 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 15:39:52 ERROR FXMLController:113 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:226)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:110)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:37)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 15:39:52 WARN  FXMLController:122 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-26 15:39:54 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 15:39:54 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 15:40:12 INFO  MainApp:36 - Старт приложения
+2020-11-26 15:40:12 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 15:40:12 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 15:40:15 ERROR FXMLController:113 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:226)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:110)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:37)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 15:40:19 INFO  MainApp:36 - Старт приложения
+2020-11-26 15:40:20 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 15:40:20 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 15:40:20 ERROR FXMLController:113 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:226)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:110)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:37)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 15:40:20 WARN  FXMLController:122 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-26 15:40:22 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 15:40:22 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 15:41:04 INFO  MainApp:36 - Старт приложения
+2020-11-26 15:41:05 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 15:41:05 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 15:41:13 ERROR FXMLController:113 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:226)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:110)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:37)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 15:41:14 WARN  FXMLController:122 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-26 15:41:16 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 15:41:16 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 15:42:29 INFO  MainApp:36 - Старт приложения
+2020-11-26 15:42:29 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 15:42:29 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 15:42:29 ERROR FXMLController:113 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:226)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:110)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:37)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 15:42:30 WARN  FXMLController:122 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-26 15:42:32 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 15:42:32 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 15:42:47 INFO  MainApp:36 - Старт приложения
+2020-11-26 15:42:47 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 15:42:47 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 15:42:47 ERROR FXMLController:113 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:226)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:110)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:37)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 15:42:48 WARN  FXMLController:122 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-26 15:42:49 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 15:42:49 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 15:42:53 INFO  SettingsController:83 - Параметры подключения изменились. Сохранение новых параметров.
+2020-11-26 15:42:53 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-11-26 15:42:53 INFO  SettingsController:87 - Параметры подключения записаны в файл Settings.txt.
+2020-11-26 15:42:53 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-26 15:42:53 INFO  PostgressConnector:140 - Список объектов получен.
+2020-11-26 15:42:53 INFO  FXMLController:150 - Дерево объектов для БД postgres получено.
+2020-11-26 15:42:58 INFO  MainApp:36 - Старт приложения
+2020-11-26 15:42:58 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 15:42:58 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 15:42:58 INFO  FXMLController:111 - Все параметры для подключения заданы.
+2020-11-26 15:42:58 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-11-26 15:42:59 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-26 15:42:59 INFO  PostgressConnector:140 - Список объектов получен.
+2020-11-26 15:42:59 INFO  FXMLController:150 - Дерево объектов для БД postgres получено.
+2020-11-26 15:43:03 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 15:43:03 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 15:43:20 INFO  MainApp:36 - Старт приложения
+2020-11-26 15:43:21 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 15:43:21 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 15:43:21 INFO  FXMLController:111 - Все параметры для подключения заданы.
+2020-11-26 15:43:21 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-11-26 15:43:21 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-26 15:43:22 INFO  PostgressConnector:140 - Список объектов получен.
+2020-11-26 15:43:22 INFO  FXMLController:150 - Дерево объектов для БД postgres получено.
+2020-11-26 15:43:23 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 15:43:23 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 15:43:25 INFO  SettingsController:80 - Параметры подключения изменились. Сохранение новых параметров.
+2020-11-26 15:43:25 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-11-26 15:43:25 INFO  SettingsController:84 - Параметры подключения записаны в файл Settings.txt.
+2020-11-26 15:43:25 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-26 15:43:25 ERROR PostgressConnector:142 - org.postgresql.util.PSQLException: Случилось что-то необычное, что заставило драйвер произвести ошибку. Пожалуйста сообщите это исключение.
+org.postgresql.Driver.connect(Driver.java:285)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:131)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:159)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:148)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 15:43:30 INFO  MainApp:36 - Старт приложения
+2020-11-26 15:43:30 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 15:43:30 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 15:43:30 ERROR FXMLController:113 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:226)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:110)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:37)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 15:43:31 WARN  FXMLController:122 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-26 15:43:34 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 15:43:34 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 16:19:33 INFO  MainApp:36 - Старт приложения
+2020-11-26 16:19:33 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 16:19:33 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 16:19:33 ERROR FXMLController:113 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:226)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:110)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:37)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 16:19:34 WARN  FXMLController:122 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-26 16:20:12 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 16:20:12 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 16:20:30 INFO  SettingsController:80 - Параметры подключения изменились. Сохранение новых параметров.
+2020-11-26 16:20:30 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-11-26 16:20:30 INFO  SettingsController:84 - Параметры подключения записаны в файл Settings.txt.
+2020-11-26 16:20:30 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-26 16:20:30 INFO  PostgressConnector:140 - Список объектов получен.
+2020-11-26 16:20:30 INFO  FXMLController:150 - Дерево объектов для БД postgres получено.
+2020-11-26 16:21:20 INFO  FXMLController:217 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-11-26 16:21:20 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-26 16:21:20 INFO  PostgressConnector:91 - DDL для таблицы jakears.test_table получен.
+2020-11-26 16:21:48 INFO  FXMLController:200 - Добавление пользователя в список грантов.
+2020-11-26 16:21:55 INFO  FXMLController:200 - Добавление пользователя в список грантов.
+2020-11-26 16:22:03 INFO  FXMLController:200 - Добавление пользователя в список грантов.
+2020-11-26 16:22:18 INFO  FXMLController:282 - Добавление скрипта для выдачи грантов к DDL объекта jakears.test_table.
+2020-11-26 16:22:39 INFO  FXMLController:352 - Сохранение файла с скриптами для объекта jakears.test_table.
+2020-11-26 16:24:00 INFO  MainApp:36 - Старт приложения
+2020-11-26 16:24:01 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 16:24:01 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 16:24:01 INFO  FXMLController:111 - Все параметры для подключения заданы.
+2020-11-26 16:24:01 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-11-26 16:24:02 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-26 16:24:02 INFO  PostgressConnector:140 - Список объектов получен.
+2020-11-26 16:24:02 INFO  FXMLController:150 - Дерево объектов для БД postgres получено.
+2020-11-26 16:24:05 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 16:24:05 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 16:24:08 INFO  SettingsController:80 - Параметры подключения изменились. Сохранение новых параметров.
+2020-11-26 16:24:08 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-11-26 16:24:08 INFO  SettingsController:84 - Параметры подключения записаны в файл Settings.txt.
+2020-11-26 16:24:08 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-26 16:24:08 ERROR PostgressConnector:142 - org.postgresql.util.PSQLException: Случилось что-то необычное, что заставило драйвер произвести ошибку. Пожалуйста сообщите это исключение.
+org.postgresql.Driver.connect(Driver.java:285)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+org.example.Vigruzhator.PostgressConnector.getObjectList(PostgressConnector.java:131)
+org.example.Vigruzhator.PostgressConnector.getObjectTree(PostgressConnector.java:159)
+org.example.Vigruzhator.FXMLController.lambda$refreshTree$9(FXMLController.java:148)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 16:24:29 INFO  MainApp:36 - Старт приложения
+2020-11-26 16:24:30 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 16:24:30 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 16:24:30 ERROR FXMLController:113 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:226)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:110)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:37)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 16:24:31 WARN  FXMLController:122 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-26 16:24:42 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 16:24:42 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 18:18:22 INFO  MainApp:36 - Старт приложения
+2020-11-26 18:18:23 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-11-26 18:18:23 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-11-26 18:18:23 ERROR FXMLController:113 - Exceptions.ParamsException: Не все параметры заполнены.
+org.example.Vigruzhator.PostgressConnector.checkParams(PostgressConnector.java:226)
+org.example.Vigruzhator.FXMLController.initialize(FXMLController.java:110)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3214)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3175)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3148)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3124)
+javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3104)
+javafx.fxml.FXMLLoader.load(FXMLLoader.java:3097)
+org.example.Vigruzhator.MainApp.start(MainApp.java:37)
+com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)
+com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)
+com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)
+java.security.AccessController.doPrivileged(Native Method)
+com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)
+com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+com.sun.glass.ui.win.WinApplication.lambda$null$3(WinApplication.java:177)
+java.lang.Thread.run(Thread.java:748)
+
+2020-11-26 18:18:23 WARN  FXMLController:122 - Не все параметры для подключения заданы или не найден файл с настройками подключения.
+2020-11-26 18:59:44 INFO  FXMLController:317 - Запуск окна настроек.
+2020-11-26 18:59:44 INFO  SettingsController:40 - Окно настроек запущено.
+Считывание текущих параметров подключения.
+2020-11-26 18:59:55 INFO  SettingsController:80 - Параметры подключения изменились. Сохранение новых параметров.
+2020-11-26 18:59:55 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-11-26 18:59:55 INFO  SettingsController:84 - Параметры подключения записаны в файл Settings.txt.
+2020-11-26 18:59:55 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-26 18:59:55 INFO  PostgressConnector:140 - Список объектов получен.
+2020-11-26 18:59:55 INFO  FXMLController:150 - Дерево объектов для БД postgres получено.
+2020-11-26 19:00:09 INFO  FXMLController:217 - Получение DDL для объекта jakears.test_table (BASE TABLE).
+2020-11-26 19:00:09 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-26 19:00:09 INFO  PostgressConnector:91 - DDL для таблицы jakears.test_table получен.
+2020-11-26 19:00:26 INFO  FXMLController:200 - Добавление пользователя в список грантов.
+2020-11-26 19:00:34 INFO  FXMLController:200 - Добавление пользователя в список грантов.
+2020-11-26 19:00:43 INFO  FXMLController:200 - Добавление пользователя в список грантов.
+2020-11-26 19:00:53 INFO  FXMLController:282 - Добавление скрипта для выдачи грантов к DDL объекта jakears.test_table.
+2020-11-26 19:01:14 INFO  FXMLController:352 - Сохранение файла с скриптами для объекта jakears.test_table.
+2020-11-26 19:01:18 INFO  FXMLController:365 - Файл jakears.test_table.sql сохранен.
+2020-11-26 19:01:24 INFO  FXMLController:352 - Сохранение файла с скриптами для объекта jakears.test_table.
+2020-11-26 19:05:27 INFO  FXMLController:200 - Добавление пользователя в список грантов.
+2020-11-26 19:05:28 INFO  FXMLController:282 - Добавление скрипта для выдачи грантов к DDL объекта jakears.test_table.
+2020-11-26 19:06:13 INFO  FXMLController:200 - Добавление пользователя в список грантов.
+2020-11-26 19:06:14 INFO  FXMLController:282 - Добавление скрипта для выдачи грантов к DDL объекта jakears.test_table.
+2020-11-26 19:12:31 INFO  PostgressConnector:87 - Подключение к БД и получение DDL для таблицы jakears.test_table.
+2020-11-26 19:12:32 INFO  PostgressConnector:91 - DDL для таблицы jakears.test_table получен.
+2020-11-26 19:12:32 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-11-26 19:12:32 INFO  PostgressConnector:140 - Список объектов получен.
+2020-12-09 18:09:37 INFO  MainApp:36 - Старт приложения
+2020-12-09 18:09:37 INFO  FXMLController:106 - Получение параметров подключения из файла настроек Settings.txt.
+2020-12-09 18:09:37 INFO  FXMLController:108 - Файл настроек получен. Создание подключения.
+2020-12-09 18:09:38 INFO  FXMLController:111 - Все параметры для подключения заданы.
+2020-12-09 18:09:38 INFO  FXMLController:145 - Старт обновления дерева объектов.
+2020-12-09 18:09:38 INFO  PostgressConnector:130 - Подключение к БД и получение списка объектов.
+2020-12-09 18:09:39 INFO  PostgressConnector:140 - Список объектов получен.
+2020-12-09 18:09:39 INFO  FXMLController:150 - Дерево объектов для БД postgres получено.

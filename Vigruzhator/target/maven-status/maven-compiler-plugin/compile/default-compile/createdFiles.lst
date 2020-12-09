@@ -1,0 +1,11 @@
+org\example\Vigruzhator\Caster.class
+org\example\Vigruzhator\ConnectorObserver.class
+org\example\Vigruzhator\SettingsController.class
+org\example\Vigruzhator\MainApp.class
+org\example\Vigruzhator\CoderTest.class
+org\example\Vigruzhator\PostgresObject.class
+org\example\Vigruzhator\Coder.class
+org\example\Vigruzhator\Grant.class
+org\example\Vigruzhator\FXMLController.class
+org\example\Vigruzhator\PostgressConnectorTest.class
+org\example\Vigruzhator\PostgressConnector.class
